@@ -1,0 +1,263 @@
+neimenggu_medical_university_hospital_exclusive:
+- action: sleep
+  time: 5
+- text: 内蒙古医科大学附属医院
+  action: swip_click
+- locator: //*[@text="诊疗"]
+  by: xpath
+  action: element_to_be_clickable_click
+- locator: //*[@text="在线咨询"]
+  by: xpath
+  action: element_to_be_clickable_click
+- action: png
+
+nanfang_medical_university_hospital_exclusive:
+- action: startActivity
+- locator: //*[@text="公众号"]
+  by: xpath
+  action: find
+  find_to_do: find
+- text: 南方医科大学皮肤病医院
+  action: swip_click
+- locator: //*[@text="导诊"]
+  by: xpath
+  action: element_to_be_clickable_click
+- locator: //*[@text="互联网医院"]
+  by: xpath
+  action: element_to_be_clickable_click
+- action: sleep
+  time: 8
+- action: target_click
+  x: 330
+  y: 1200
+- action: png
+
+deyang_people_hospital_exclusive:
+- action: startActivity
+- locator: //*[@text="公众号"]
+  by: xpath
+  action: find
+  find_to_do: find
+- text: 德阳市人民医院
+  action: swip_click
+- locator: //*[@text="诊疗服务"]
+  by: xpath
+  action: element_to_be_clickable_click
+- action: sleep
+  time: 10
+- action: target_click
+  x: 117
+  y: 970
+- action: png
+
+xian_gaoxin_hospital_exclusive:
+- action: startActivity
+- locator: //*[@text="公众号"]
+  by: xpath
+  action: find
+  find_to_do: find
+- text: 西安高新医院互联网医院
+  action: swip_click
+- locator: //*[@text="互联网医院"]
+  by: xpath
+  action: element_to_be_clickable_click
+- locator: //*[@text="在线诊疗"]
+  by: xpath
+  action: element_to_be_clickable_click
+- action: png
+
+wenzhou_central_hospital_exclusive:
+- action: startActivity
+- locator: //*[@text="公众号"]
+  by: xpath
+  action: find
+  find_to_do: find
+- text: 温州市中心医院就医助手
+  action: swip_click
+- locator: //*[@text="互联网门诊"]
+  by: xpath
+  action: element_to_be_clickable_click
+- locator: //*[@text="互联网诊疗"]
+  by: xpath
+  action: element_to_be_clickable_click
+- action: png
+
+Chifeng_institute_hospital_exclusive:
+- action: startActivity
+- locator: //*[@text="公众号"]
+  by: xpath
+  action: find
+  find_to_do: find
+- text: 赤峰学院附属医院服务号
+  action: swip_click
+- locator: //*[@text="互动"]
+  by: xpath
+  action: element_to_be_clickable_click
+- locator: //*[@text="在线专属医生问诊"]
+  by: xpath
+  action: element_to_be_clickable_click
+- action: png
+
+wenzhou_medical_university_shiguang_hospital_exclusive:
+- action: startActivity
+- locator: //*[@text="公众号"]
+  by: xpath
+  action: find
+  find_to_do: find
+- text: 温医大眼视光
+  action: swip_click
+- locator: //*[@text="诊疗"]
+  by: xpath
+  action: element_to_be_clickable_click
+- locator: //*[@text="网络门诊"]
+  by: xpath
+  action: element_to_be_clickable_click
+- action: png
+
+guangzhou_panyu_center_hospital_exclusive:
+- action: startActivity
+- locator: //*[@text="公众号"]
+  by: xpath
+  action: find
+  find_to_do: find
+- text: 广州市番禺区中心医院
+  action: swip_click
+- locator: //*[@text="诊疗"]
+  by: xpath
+  action: element_to_be_clickable_click
+- locator: //*[@text="医院首页"]
+  by: xpath
+  action: element_to_be_clickable_click
+- action: sleep
+  time: 5
+- action: target_click
+  x: 690
+  y: 956
+- action: png
+
+zigong_first_people_hospital_exclusive:
+- action: startActivity
+- locator: //*[@text="公众号"]
+  by: xpath
+  action: find
+  find_to_do: find
+- text: 自贡市第一人民医院
+  action: swip_click
+- locator: //*[@text="在线诊疗"]
+  by: xpath
+  action: element_to_be_clickable_click
+- action: sleep
+  time: 5
+- action: png
+
+nanfang_keji_university_hospital_exclusive:
+- action: startActivity
+- locator: //*[@text="公众号"]
+  by: xpath
+  action: find
+  find_to_do: find
+- text: 南方科技大学医院
+  action: swip_click
+- locator: //*[@text="智慧服务"]
+  by: xpath
+  action: element_to_be_clickable_click
+- action: sleep
+  time: 8
+- action: swipe
+  x1: 212
+  y1: 1058
+  x2: 612
+  y2: 1058
+- action: target_click
+  x: 509
+  y: 976
+- action: png
+
+tangdu_hospital_exclusive:
+- action: startActivity
+- locator: //*[@text="公众号"]
+  by: xpath
+  action: find
+  find_to_do: find
+- text: 唐都医院
+  action: swip_click
+- locator: //*[@text="互联网医院"]
+  by: xpath
+  action: element_to_be_clickable_click
+- action: sleep
+  time: 8
+- action: target_click
+  x: 730
+  y: 1225
+- action: sleep
+  time: 2
+- action: target_click
+  x: 730
+  y: 744
+- action: png
+
+xijing_hospital_exclusive:
+- action: startActivity
+- locator: //*[@text="公众号"]
+  by: xpath
+  action: find
+  find_to_do: find
+- text: 西京医院
+  action: swip_click
+- locator: //*[@text="就诊"]
+  by: xpath
+  action: element_to_be_clickable_click
+- locator: //*[@text="公益咨询"]
+  by: xpath
+  action: element_to_be_clickable_click
+- action: sleep
+  time: 5
+- action: png
+
+liaoning_zhongyiyao_university_hospital_exclusive:
+- action: startActivity
+- locator: //*[@text="公众号"]
+  by: xpath
+  action: find
+  find_to_do: find
+- text: 辽宁中医药大学附属医院
+  action: swip_click
+- locator: //*[@text="导诊"]
+  by: xpath
+  action: element_to_be_clickable_click
+- locator: //*[@text="互联网医院"]
+  by: xpath
+  action: element_to_be_clickable_click
+- action: png
+
+nanjing_oral_hospital_exclusive:
+- action: startActivity
+- locator: //*[@text="公众号"]
+  by: xpath
+  action: find
+  find_to_do: find
+- text: 南京市口腔医院
+  action: swip_click
+- locator: //*[@text="导诊"]
+  by: xpath
+  action: element_to_be_clickable_click
+- locator: //*[@text="线上医生咨询"]
+  by: xpath
+  action: element_to_be_clickable_click
+- action: png
+
+liuyang_people_hospital_exclusive:
+- action: startActivity
+- locator: //*[@text="公众号"]
+  by: xpath
+  action: find
+  find_to_do: find
+- text: 湖南省浏阳市人民医院
+  action: swip_click
+- locator: //*[@text="诊疗"]
+  by: xpath
+  action: element_to_be_clickable_click
+- locator: //*[@text="互联网医院"]
+  by: xpath
+  action: element_to_be_clickable_click
+- action: png

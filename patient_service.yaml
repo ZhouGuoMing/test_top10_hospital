@@ -1,0 +1,167 @@
+xijing_hospital_patient:
+- action: startActivity
+- action: sleep
+  time: 5
+- text: 西京医院
+  action: swip_click
+- locator: //*[@text="就诊"]
+  by: xpath
+  action: find_click
+- locator: //*[@text="预约挂号"]
+  by: xpath
+  action: element_to_be_clickable_click
+- action: sleep
+  time: 5
+- action: target_click
+  x: 751
+  y: 1313
+- action: target_click
+  x: 678
+  y: 1029
+- action: png
+
+
+
+dongguanfuyou_hospital_patient:
+- action: startActivity
+- locator: //*[@text="公众号"]
+  by: xpath
+  action: find
+  find_to_do: find
+- text: 东莞市妇幼保健院智慧医疗
+  action: swip_click
+- locator: //*[@text="互动"]
+  by: xpath
+  action: find_click
+- locator: //*[@text="医院首页"]
+  by: xpath
+  action: find_click
+- action: png
+
+qingyuan_people_hospital_patient:
+- action: startActivity
+- locator: //*[@text="公众号"]
+  by: xpath
+  action: find
+  find_to_do: find
+- text: 清远市人民医院
+  action: swip_click
+- locator: //*[@text="导诊"]
+  by: xpath
+  action: find_click
+- locator: //*[@text="功能查询"]
+  by: xpath
+  action: find_click
+- action: png
+
+guangzhou_panyu_center_hospital_patient:
+- action: startActivity
+- locator: //*[@text="公众号"]
+  by: xpath
+  action: find
+  find_to_do: find
+- text: 广州市番禺区中心医院
+  action: swip_click
+- locator: //*[@text="诊疗"]
+  by: xpath
+  action: find_click
+- locator: //*[@text="医院首页"]
+  by: xpath
+  action: find_click
+- action: png
+
+zhengzhou_university_first_hospital_patient:
+- action: startActivity
+- locator: //*[@text="公众号"]
+  by: xpath
+  action: find
+  find_to_do: find
+- text: 郑州大学第一附属医院
+  action: swip_click
+- locator: //*[@text="互动"]
+  by: xpath
+  action: find_click
+- locator: //*[@text="医院首页"]
+  by: xpath
+  action: find_click
+- action: png
+
+hunan_zhongyiyao_university_first_hospital_patient:
+- action: startActivity
+- locator: //*[@text="公众号"]
+  by: xpath
+  action: find
+  find_to_do: find
+- text: 湖南中医药大学第一附属医院
+  action: swip_click
+- locator: //*[@text="互动"]
+  by: xpath
+  action: find_click
+- locator: //*[@text="患者服务平台首页"]
+  by: xpath
+  action: find_click
+- action: png
+
+beijing_third_hospital_patient:
+- action: startActivity
+- locator: //*[@text="公众号"]
+  by: xpath
+  action: find
+  find_to_do: find
+- text: 北医三院服务号
+  action: swip_click
+- locator: //*[@text="导诊"]
+  by: xpath
+  action: find_click
+- locator: //*[@text="医院首页"]
+  by: xpath
+  action: find_click
+- action: png
+
+foshan_gaoming_people_hospital_patient:
+- action: startActivity
+- locator: //*[@text="公众号"]
+  by: xpath
+  action: find
+  find_to_do: find
+- text: 佛山市高明区人民医院
+  action: swip_click
+- locator: //*[@text="诊疗"]
+  by: xpath
+  action: find_click
+- locator: //*[@text="医院首页"]
+  by: xpath
+  action: find_click
+- action: png
+
+foshan_second_people_hospital_patient:
+- action: startActivity
+- locator: //*[@text="公众号"]
+  by: xpath
+  action: find
+  find_to_do: find
+- text: 佛山市第二人民医院
+  action: swip_click
+- locator: //*[@text="智慧诊疗"]
+  by: xpath
+  action: find_click
+- locator: //*[@text="医院首页"]
+  by: xpath
+  action: find_click
+- action: png
+
+guangzhou_huadu_people_hospital_patient:
+- action: startActivity
+- locator: //*[@text="公众号"]
+  by: xpath
+  action: find
+  find_to_do: find
+- text: 广州市花都区人民医院
+  action: swip_click
+- locator: //*[@text="其他"]
+  by: xpath
+  action: find_click
+- locator: //*[@text="医院首页"]
+  by: xpath
+  action: find_click
+- action: png
